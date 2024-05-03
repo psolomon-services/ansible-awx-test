@@ -1,4 +1,4 @@
 ---
 ENV:                 PROD-LIKE
-ansible_host:        ansible.pauljsolomon.net
+ansible_host:        192.168.1.194  #ansible.pauljsolomon.net
 portainer_endpoint:  'http://192.168.1.187:9085/api'
