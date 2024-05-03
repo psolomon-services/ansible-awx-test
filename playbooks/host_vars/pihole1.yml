@@ -1,0 +1,4 @@
+---
+ansible_host:       pihole.pauljsolomon.net
+pihole_hostname:    pihole-main
+nginx_pihole_host:  pihole.pauljsolomon.net
