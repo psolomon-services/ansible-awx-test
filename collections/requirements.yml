@@ -1,0 +1,15 @@
+---
+# NOTE:  AWX automatically uses this file, but locally you need to install it via:
+# ansible-galaxy install -r requirements.yml
+
+collections:
+- community.general
+- awx.awx
+
+# With the collection name, version, and source options
+#- name: my_namespace.my_other_collection
+#  version: 'version range identifiers (default: ``*``)'
+#  source: 'The Galaxy URL to pull the collection from (default: ``--api-server`` from cmdline)'
+
+#- name: awx.awx
+#  version: '17.1.0'
