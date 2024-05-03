@@ -1,9 +1,13 @@
 ---
-- name: OS version
+- name: Print OS Version
   hosts:         all
   remote_user:   ansible
-  gather_facts:  false
+  gather_facts:  true
 
   tasks:
-    - name: empty the adlist in the pihole container
+    - name: get os version
       shell:  "grep VERSION= /etc/os-release"
+      register: myvar
+
+    - name: print results
+      debug:  var=myvar
