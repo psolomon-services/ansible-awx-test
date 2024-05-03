@@ -1,3 +1,0 @@
----
-ENV:                 PROD
-portainer_endpoint:  "http://192.168.1.187:9085/api"
