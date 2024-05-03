@@ -1,0 +1,9 @@
+---
+- name: OS version
+  hosts:         all
+  remote_user:   ansible
+  gather_facts:  false
+
+  tasks:
+    - name: empty the adlist in the pihole container
+      shell:  "grep VERSION= /etc/os-release"
