@@ -1,4 +1,3 @@
----
 ENV:                PROD
 ansible_host:       192.168.1.187  #pihole2.pauljsolomon.net
 pihole_hostname:    pihole-backup

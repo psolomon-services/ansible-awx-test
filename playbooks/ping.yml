@@ -1,6 +1,6 @@
 ---
 - name: Ping Ansible Hosts
-  hosts:         all
+  hosts:         deploy1,localhost1,pihole1,pihole2
   remote_user:   ansible
   gather_facts:  false
 
